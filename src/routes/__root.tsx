@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "THE DUNGEON MOROCCO";
+const APP_NAME = "Hamza — Sites web";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,9 +14,9 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "THE DUNGEON MOROCCO — powerbuilding and fitness club in Beni Mellal. Iron, discipline, and a room for women.",
+          "Sites web pour des commerces. Cinq projets en ligne : cafés, salle de sport, cosmétique et boutique.",
       },
-      { name: "theme-color", content: "#090909" },
+      { name: "theme-color", content: "#f4f0e6" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -32,7 +32,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,650&family=Manrope:wght@400;500;600;700&display=swap",
       },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
